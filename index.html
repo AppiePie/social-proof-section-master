@@ -122,7 +122,7 @@
         grid-area: description;
         color: hsl(0, 0%, 100%);
       }
-      .hero-review h3 {
+      .hero-review h2 {
         color: hsl(0, 0%, 100%);
       }
       .hero-review span {
@@ -132,6 +132,10 @@
         .hero-rate-description {
           display: block;
           font-size: calc(1vh + 0.5rem);
+        }
+        .hero-review h2 {
+          color: hsl(0, 0%, 100%);
+          font-size: calc(var(--default-font-size));
         }
       }
       @media only screen and (min-width: 810px) {
@@ -221,6 +225,9 @@
             "image title"
             "description description";
         }
+        .hero-review h2 {
+          font-size: 1.1vw;
+        }
       }
     </style>
   </head>
@@ -238,11 +245,11 @@
         <div class="hero-rates">
           <div class="hero-rate hero-rate1">
             <div class="hero-icon">
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
             </div>
             <strong class="hero-rate-description"
               >Rated 5 Stars in Reviews</strong
@@ -250,11 +257,11 @@
           </div>
           <div class="hero-rate hero-rate2">
             <div class="hero-icon">
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
             </div>
             <strong class="hero-rate-description"
               >Rated 5 Stars in Report Guru</strong
@@ -262,11 +269,11 @@
           </div>
           <div class="hero-rate hero-rate3">
             <div class="hero-icon">
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
-              <img src="images/icon-star.svg" class="" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
+              <img src="images/icon-star.svg" alt="stars" />
             </div>
             <strong class="hero-rate-description"
               >Rated 5 Stars in BestTech</strong
@@ -275,9 +282,9 @@
         </div>
         <div class="hero-reviews">
           <div class="hero-review hero-review1">
-            <img src="images/image-colton.jpg" />
+            <img src="images/image-colton.jpg" alt="Colton Smith" />
             <div class="hero-reviews-name">
-              <h3>Colton Smith</h3>
+              <h2>Colton Smith</h2>
               <span>Verified Buyer</span>
             </div>
             <p>
@@ -287,9 +294,9 @@
             </p>
           </div>
           <div class="hero-review hero-review2">
-            <img src="images/image-irene.jpg" />
+            <img src="images/image-irene.jpg" alt="Irene Roberts" />
             <div class="hero-reviews-name">
-              <h3>Irene Roberts</h3>
+              <h2>Irene Roberts</h2>
               <span>Verified Buyer</span>
             </div>
             <p>
@@ -299,9 +306,9 @@
             </p>
           </div>
           <div class="hero-review hero-review3">
-            <img src="images/image-anne.jpg" />
+            <img src="images/image-anne.jpg" alt="Anne Wallace" />
             <div class="hero-reviews-name">
-              <h3>Anne Wallace</h3>
+              <h2>Anne Wallace</h2>
               <span>Verified Buyer</span>
             </div>
             <p>
