@@ -172,14 +172,14 @@
         .hero-rates div {
           border-radius: 8px;
         }
-        .hero-rate1 {
+        .hero-rate:first-child {
           margin-right: 8vw;
         }
-        .hero-rate2 {
+        .hero-rate:nth-child(2) {
           margin-left: 3vw;
           margin-right: 4vw;
         }
-        .hero-rate3 {
+        .hero-rate:last-child {
           margin-left: 6vw;
           margin-right: 2vw;
         }
@@ -201,14 +201,14 @@
           grid-template-columns: repeat(3, minmax(0, 1fr));
           gap: var(--default-font-size);
         }
-        .hero-review1 {
+        .hero-review:first-child {
           margin-bottom: calc(2 * var(--default-font-size));
         }
-        .hero-review2 {
+        .hero-review:nth-child(2) {
           margin-top: calc(1 * var(--default-font-size));
           margin-bottom: calc(1 * var(--default-font-size));
         }
-        .hero-review3 {
+        .hero-review:last-child {
           margin-top: calc(2 * var(--default-font-size));
         }
 
